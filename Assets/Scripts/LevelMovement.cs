@@ -6,6 +6,7 @@ public class LevelMovement : MonoBehaviour {
 
 
 	public float speed;
+	public float oldspeed;
 
 	// Use this for initialization
 	void Start () {
@@ -18,5 +19,14 @@ public class LevelMovement : MonoBehaviour {
 		if (gameObject.transform.position.x < -11) {
 			Destroy(gameObject);
 		}
+	}
+
+	public void Pauze(){
+		oldspeed = 0.05f;
+		speed = 0;
+	}
+
+	public void Resume (){
+		speed = oldspeed;
 	}
 }

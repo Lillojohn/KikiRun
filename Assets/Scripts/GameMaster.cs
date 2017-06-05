@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameMaster : MonoBehaviour {
 
 	public static GameMaster gm;
-	private static int _maxScore =2;
+	private static int _maxScore = 10;
 	public static int MaxScore 
 	{
 		get { return _maxScore; }

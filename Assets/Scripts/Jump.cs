@@ -18,7 +18,7 @@ public class Jump : MonoBehaviour {
 		jumping = false;
 		grounded = false;
 		rb = gameObject.GetComponent<Rigidbody2D> ();
-		animator = gameObject.GetComponent<Animator> ();
+		animator = GameObject.Find ("nick").GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -37,7 +37,7 @@ public class Jump : MonoBehaviour {
 		}
 
 		if (jumping == true) {
-			rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
+			rb.AddForce(new Vector2(0,0.4f * rb.mass), ForceMode2D.Impulse);
 
 		}
 
@@ -51,7 +51,7 @@ public class Jump : MonoBehaviour {
 			grounded = true;
 		}
 
-		if(col.gameObject.name == "Block(Clone)")
+		if(col.gameObject.name == "BlockA(Clone)")
 		{
 			grounded = true;
 		}

@@ -11,19 +11,21 @@ public class PointManager : MonoBehaviour {
 	private float randomOffset;
 	private Random rnd;
 	private ScoreManager _scoremanager;
+	private PauzeManager _pauzemanager;
 
 
 	// Use this for initialization
 	void Start () {
 		gameObjectList = new List<GameObject> ();
-		CreatePoint ();
+		_scoremanager = GameObject.Find ("ScoreManager").GetComponent<ScoreManager> ();
+		_pauzemanager = GameObject.Find ("PauzeManager").GetComponent<PauzeManager> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		timer++;
 
-		if (timer > triggerTime + randomOffset) {
+		if (timer > triggerTime + randomOffset  && _pauzemanager.GetPauze() == false) {
 			CreatePoint ();
 			timer = 0;
 		}
@@ -35,11 +37,26 @@ public class PointManager : MonoBehaviour {
 		randomOffset = Random.Range (0, offset);
 	}
 
-	public void AddScoreManager(ScoreManager scoremanager) {
-		_scoremanager = scoremanager;
-	}
 
 	public void AddPoint(){
-		_scoremanager.AddPoint();
+		_scoremanager.AddPoint ();
+	}
+
+	public void PauzePoints(){
+		foreach (var point in gameObjectList) {
+			if (point != null) {
+				var levelmovement = point.GetComponent<LevelMovement> ();
+				levelmovement.Pauze ();
+			}
+		}
+	}
+
+	public void ResumePoints(){
+		foreach (var point in gameObjectList) {
+			if (point != null) {
+				var levelmovement = point.GetComponent<LevelMovement> ();
+				levelmovement.Resume ();
+			}
+		}
 	}
 }
