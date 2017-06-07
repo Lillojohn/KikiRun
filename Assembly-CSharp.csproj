@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Audio.cs" />
      <Compile Include="Assets\CarousalEffect.cs" />
      <Compile Include="Assets\CubeCollision.cs" />
      <Compile Include="Assets\LevelSelector.cs" />
