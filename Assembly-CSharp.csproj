@@ -49,6 +49,8 @@
      <Compile Include="Assets\Audio.cs" />
      <Compile Include="Assets\CarousalEffect.cs" />
      <Compile Include="Assets\CubeCollision.cs" />
+     <Compile Include="Assets\Goal.cs" />
+     <Compile Include="Assets\GoalText.cs" />
      <Compile Include="Assets\LevelSelector.cs" />
      <Compile Include="Assets\NickAnimations.cs" />
      <Compile Include="Assets\Scripts\BlockManager.cs" />
