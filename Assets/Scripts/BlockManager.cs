@@ -23,7 +23,15 @@ public class BlockManager : MonoBehaviour {
 		timer++;
 
 		if (timer > triggerTime + randomOffset && _pauzeManager.GetComponent<PauzeManager>().GetPauze() == false) {
-			CreateBlock ();
+			int random = Random.Range (0, 2);
+			if (random == 0) {
+				CreateBlock ();
+			}
+
+			if (random == 1) {
+				CreateTwoBlocks ();
+			}
+
 			timer = 0;
 		}
 	}
@@ -34,8 +42,8 @@ public class BlockManager : MonoBehaviour {
 	}
 
 	public void CreateTwoBlocks(){
-		gameObjectList.Add(Instantiate(Resources.Load("Prefabs/Block")) as GameObject); 
-		randomOffset = Random.Range (0, offset);
+		gameObjectList.Add(Instantiate(Resources.Load("Prefabs/BlockA")) as GameObject); 
+		gameObjectList.Add(Instantiate(Resources.Load("Prefabs/BlockA")) as GameObject);
 	}
 
 	public void PauzeBlocks(){

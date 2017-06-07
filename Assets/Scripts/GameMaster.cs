@@ -24,6 +24,6 @@ public class GameMaster : MonoBehaviour {
 	}
 
 	private static void EndGame(int score) {
-		Debug.Log("GAME OVER!");
+		Application.LoadLevel("EndScreen");
 	}
 }
