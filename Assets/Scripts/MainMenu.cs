@@ -36,16 +36,12 @@ public class MainMenu : MonoBehaviour {
 			 // Calculate the position that should be left of the targets.
 			 float marginLeft = (canvasWidth - targetWidth * 3) / 4;
 
-			 Debug.Log(marginLeft);
-
 			 TargetList list = JsonUtility.FromJson<TargetList>(www.data);
 			 int i = 1;
 			 int y = 0;
 			 foreach(Target target in list.targets) {
 				 GameObject newTarget = Instantiate(this.Target);				 
 				 newTarget.transform.parent = Canvas.transform;
-				 Debug.Log((-(canvasWidth/2) + targetWidth/2));
-				 Debug.Log(i * marginLeft + targetWidth);
 				 newTarget.transform.localPosition = new Vector3((-(canvasWidth/2) + targetWidth/2) + (i * marginLeft) + (y * targetWidth), 0, 0);
 				 Button b = newTarget.GetComponent<Button>();
 				 b.onClick.AddListener(() => startGame());
