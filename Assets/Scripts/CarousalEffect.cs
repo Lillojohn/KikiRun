@@ -15,7 +15,7 @@ public class CarousalEffect : MonoBehaviour {
 	void Update () {
 		gameObject.transform.Translate (Vector3.left * speed);
 		if (gameObject.transform.position.x < - 13) {
-			gameObject.transform.position = new Vector3 (12, -0.200822f, 0);
+			gameObject.transform.position = new Vector3 (12, 0, 0);
 		}
 	}
 }

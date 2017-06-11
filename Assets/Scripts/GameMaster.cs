@@ -5,12 +5,8 @@ using UnityEngine;
 public class GameMaster : MonoBehaviour {
 
 	public static GameMaster gm;
-	public GameObject goal;
-	private static int _maxScore = 10;
-	public static int MaxScore 
-	{
-		get { return _maxScore; }
-	}
+	private Goal _goal;
+	private int _maxScore = 10;
 
 	void awake() {
 		if(gm == null) {
@@ -19,17 +15,20 @@ public class GameMaster : MonoBehaviour {
 	}
 
 	void Start(){
-		goal = GameObject.Find ("Goal");
-		_maxScore = goal.GetComponent<Goal>().GetGoal();
+		GameObject goal = GameObject.Find ("Goal");
+		_goal = goal.GetComponent<Goal>();
+		_maxScore = _goal.GetGoal();
+		_goal.startGame();
 	}
 
-	public static void CheckGameOver(int score) {
-		if(score >= GameMaster._maxScore) {
+	public void CheckGameOver(int score) {
+		if(score >= _maxScore) {
 			EndGame(score);
 		}
 	}
 
-	private static void EndGame(int score) {
+	private void EndGame(int score) {
+		_goal.endGame();
 		Application.LoadLevel("EndScreen");
 	}
 }

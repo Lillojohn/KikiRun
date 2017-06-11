@@ -23,6 +23,6 @@ public class ScoreManager : MonoBehaviour {
 		GameObject _variableText = GameObject.Find("Canvas/variablePoint");
 		Text _textcomponent = _variableText.GetComponent<Text> ();
 		_textcomponent.text = _point.ToString();
-		GameMaster.CheckGameOver(_point);
+		GameObject.Find("_GM").GetComponent<GameMaster>().CheckGameOver(_point);
 	}
 }
