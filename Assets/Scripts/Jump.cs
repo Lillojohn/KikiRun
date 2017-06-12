@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿	using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +11,7 @@ public class Jump : MonoBehaviour {
 	public float jumptime;
 	public bool grounded;
 	public Animator animator;
+	private GameObject goal;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,7 @@ public class Jump : MonoBehaviour {
 		grounded = false;
 		rb = gameObject.GetComponent<Rigidbody2D> ();
 		animator = GameObject.Find ("nick").GetComponent<Animator> ();
+		goal = GameObject.Find ("Goal");
 	}
 	
 	// Update is called once per frame
@@ -29,6 +31,7 @@ public class Jump : MonoBehaviour {
 			jumping = true;
 			grounded = false;
 			timer = 0;
+			goal.GetComponent<Goal> ().addJump ();
 		}
 
 

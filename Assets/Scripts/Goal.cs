@@ -6,6 +6,7 @@ using UnityEngine;
 public class Goal : MonoBehaviour {
 
 	public int goal;
+	public int jumps;
 	public DateTime startTime;
 	public DateTime endTime;
 	public string target;
@@ -18,10 +19,12 @@ public class Goal : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		goal = 10;
+		jumps = 0;
 	}
 
 	public void startGame() {
 		startTime = DateTime.Now;
+
 	}
 
 	public void endGame() {
@@ -31,6 +34,10 @@ public class Goal : MonoBehaviour {
 
 	public void changeGoal(int x){
 		goal = x;
+	}
+
+	public void addJump(){
+		jumps++;
 	}
 
 	private void submitGame() {
