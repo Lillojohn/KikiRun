@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class PointCollision : MonoBehaviour {
 
-	private PointManager _pointManager;
 
 	public void Constructor(PointManager pointmanager){
-		_pointManager = pointmanager;
 	}
 
 	// Use this for initialization
@@ -22,10 +20,9 @@ public class PointCollision : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col)
 	{
-		if(col.gameObject.name == "nick")
+		if(col.gameObject.name == "Nick")
 		{
 			Destroy(gameObject);
-			_pointManager.AddPoint ();
 		}
 	}
 
