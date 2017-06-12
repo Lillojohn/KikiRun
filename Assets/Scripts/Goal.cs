@@ -63,4 +63,8 @@ public class Goal : MonoBehaviour {
 	public int GetGoal(){
 		return goal;
 	}
+
+	public int GetJumps(){
+		return jumps;
+	}
 }
