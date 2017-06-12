@@ -11,11 +11,13 @@ public class GoalText : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		goal = GameObject.Find ("Goal");
-		goalnumber = goal.GetComponent<Goal> ().GetGoal();
-		if (gameObject.name == "GoalText") {
-			gameObject.GetComponent<Text> ().text = "/ " + goalnumber.ToString ();
-		} else {
-			gameObject.GetComponent<Text> ().text = goalnumber.ToString ();
+		if (goal) {
+			goalnumber = goal.GetComponent<Goal> ().GetGoal();
+			if (gameObject.name == "GoalText") {
+				gameObject.GetComponent<Text> ().text = "/ " + goalnumber.ToString ();
+			} else {
+				gameObject.GetComponent<Text> ().text = goalnumber.ToString ();
+			}
 		}
 	}
 	
