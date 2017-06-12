@@ -60,7 +60,7 @@ public class BlockManager : MonoBehaviour {
 		gameObjectList.Add(Instantiate(Resources.Load("Prefabs/BlockA")) as GameObject); 
 		float x = gameObjectList [gameObjectList.Count - 2].transform.position.x;
 		float y = gameObjectList [gameObjectList.Count - 2].transform.position.y;
-		gameObjectList [gameObjectList.Count - 1].transform.position = new Vector3 (x + 0.9f, y + 1.5f, 0);
+		gameObjectList [gameObjectList.Count - 1].transform.position = new Vector3 (x + 1f, y + 1.5f, 0);
 	}
 
 	public void PauzeBlocks(){
