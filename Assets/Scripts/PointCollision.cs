@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PointCollision : MonoBehaviour {
-
-
-	public void Constructor(PointManager pointmanager){
+	private PointManager _pointManager;
+	public void Constructor(PointManager pointManager){
+		_pointManager = pointManager;
 	}
 
 	// Use this for initialization
@@ -22,6 +22,7 @@ public class PointCollision : MonoBehaviour {
 	{
 		if(col.gameObject.name == "Nick")
 		{
+			_pointManager.AddPoint();
 			Destroy(gameObject);
 		}
 	}
