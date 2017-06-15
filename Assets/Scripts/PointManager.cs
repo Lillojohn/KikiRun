@@ -15,6 +15,7 @@ public class PointManager : MonoBehaviour {
 	private float _spawnTime;
 	private float _timePast;
 	public float newSpawn;
+	public GameObject _coinSound;
 
 	// Use this for initialization
 	void Start () {
@@ -54,5 +55,6 @@ public class PointManager : MonoBehaviour {
 
 	public void AddPoint(){
 		_scoremanager.AddPoint ();
+		_coinSound.GetComponent<AudioRepeat> ().PlaySound ();
 	}
 }
