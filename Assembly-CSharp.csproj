@@ -46,26 +46,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AudioRepeat.cs" />
-     <Compile Include="Assets\GroundMovement.cs" />
-     <Compile Include="Assets\OutOfScreen.cs" />
      <Compile Include="Assets\Scripts\Audio.cs" />
+     <Compile Include="Assets\Scripts\AudioRepeat.cs" />
      <Compile Include="Assets\Scripts\BlockManager.cs" />
      <Compile Include="Assets\Scripts\CarousalEffect.cs" />
      <Compile Include="Assets\Scripts\Carousel.cs" />
      <Compile Include="Assets\Scripts\GameMaster.cs" />
      <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\GoalText.cs" />
+     <Compile Include="Assets\Scripts\GroundMovement.cs" />
      <Compile Include="Assets\Scripts\Jump.cs" />
      <Compile Include="Assets\Scripts\LevelMovement.cs" />
      <Compile Include="Assets\Scripts\LevelSelector.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\NickAnimations.cs" />
+     <Compile Include="Assets\Scripts\OutOfScreen.cs" />
      <Compile Include="Assets\Scripts\PointCollision.cs" />
      <Compile Include="Assets\Scripts\PointManager.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\TargetBox.cs" />
-     <Compile Include="Assets\jumpsText.cs" />
+     <Compile Include="Assets\Scripts\jumpsText.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
