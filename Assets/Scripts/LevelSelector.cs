@@ -36,6 +36,6 @@ public class LevelSelector : MonoBehaviour {
 	}
 
 	public void chooseLevel(){
-		Application.LoadLevel("nick");
+		Application.LoadLevel("Prototype Game");
 	}
 }

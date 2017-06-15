@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\GroundMovement.cs" />
+     <Compile Include="Assets\OutOfScreen.cs" />
      <Compile Include="Assets\Scripts\Audio.cs" />
      <Compile Include="Assets\Scripts\BlockManager.cs" />
      <Compile Include="Assets\Scripts\CarousalEffect.cs" />
