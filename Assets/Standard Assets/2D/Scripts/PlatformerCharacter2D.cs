@@ -22,6 +22,7 @@ namespace UnityStandardAssets._2D
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
         public bool moving = true;
 		public GameObject jumpSound;
+		public GameObject JumpManager;
 
         private void Awake()
         {
@@ -106,6 +107,7 @@ namespace UnityStandardAssets._2D
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {
 				jumpSound.GetComponent<AudioRepeat> ().PlaySound ();
+				JumpManager.GetComponent<JumpManager> ().addJump ();
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);
