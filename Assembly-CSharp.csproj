@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\GameTime.cs" />
+     <Compile Include="Assets\JumpIndicator.cs" />
      <Compile Include="Assets\Scripts\Audio.cs" />
      <Compile Include="Assets\Scripts\AudioRepeat.cs" />
      <Compile Include="Assets\Scripts\BlockManager.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\TargetBox.cs" />
      <Compile Include="Assets\Scripts\jumpsText.cs" />
+     <Compile Include="Assets\StandingManager.cs" />
      <Compile Include="Assets\TransparentEffect.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
