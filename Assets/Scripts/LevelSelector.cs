@@ -17,6 +17,10 @@ public class LevelSelector : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		SelectLevel ();
+	}
+
+	public void SelectLevel(){
 		if(_found && Input.GetKeyDown("space")) {
 			foreach(GameObject target in _targets) {
 				RectTransform trt = (RectTransform)target.transform;

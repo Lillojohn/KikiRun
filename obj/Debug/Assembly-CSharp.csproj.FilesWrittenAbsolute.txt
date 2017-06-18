@@ -41,3 +41,5 @@
 /Users/jonathan/Projecten/School/3e/Medialab/KikiRun/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/jonathan/Projecten/School/3e/Medialab/KikiRun/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/jonathan/Projecten/School/3e/Medialab/KikiRun/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/jonathan/Projecten/School/3e/Medialab/KikiRun/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/jonathan/Projecten/School/3e/Medialab/KikiRun/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
