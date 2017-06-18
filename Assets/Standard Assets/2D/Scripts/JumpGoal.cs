@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpManager : MonoBehaviour {
+public class JumpGoal : MonoBehaviour {
 
-	private GameObject jumpGoal;
+	public int jumps;
+
+	void Awake () {
+		DontDestroyOnLoad (transform.gameObject);
+	}
 
 	// Use this for initialization
 	void Start () {
-		jumpGoal = GameObject.Find ("JumpGoal");
+		jumps = 0;
 	}
 	
 	// Update is called once per frame
@@ -17,6 +21,10 @@ public class JumpManager : MonoBehaviour {
 	}
 
 	public void addJump(){
-		jumpGoal.GetComponent<JumpGoal> ().addJump();
+		jumps++;
+	}
+
+	public int GetJumps(){
+		return jumps;
 	}
 }

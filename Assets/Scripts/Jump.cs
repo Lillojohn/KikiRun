@@ -31,7 +31,6 @@ public class Jump : MonoBehaviour {
 			jumping = true;
 			grounded = false;
 			timer = 0;
-			goal.GetComponent<Goal> ().addJump ();
 		}
 
 

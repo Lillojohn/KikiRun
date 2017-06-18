@@ -6,10 +6,11 @@ using UnityEngine;
 public class Goal : MonoBehaviour {
 
 	public int goal;
-	public int jumps;
 	public DateTime startTime;
 	public DateTime endTime;
 	public string target;
+	public float standingTime;
+
 	private string _targetUrl = "http://kiki-dashboard.herokuapp.com/games";
 
 	void Awake () {
@@ -19,12 +20,10 @@ public class Goal : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		goal = 10;
-		jumps = 0;
 	}
 
 	public void startGame() {
 		startTime = DateTime.Now;
-
 	}
 
 	public void endGame() {
@@ -36,9 +35,6 @@ public class Goal : MonoBehaviour {
 		goal = x;
 	}
 
-	public void addJump(){
-		jumps++;
-	}
 
 	private void submitGame() {
 		WWWForm form = new WWWForm();
@@ -64,7 +60,11 @@ public class Goal : MonoBehaviour {
 		return goal;
 	}
 
-	public int GetJumps(){
-		return jumps;
+	public DateTime GetStartGame(){
+		return startTime;
+	}
+
+	public DateTime GetEndGame(){
+		return endTime;
 	}
 }

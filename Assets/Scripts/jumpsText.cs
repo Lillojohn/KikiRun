@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class jumpsText : MonoBehaviour {
 
-	private GameObject goal;
+	private GameObject jumpGoal;
 
 
 	// Use this for initialization
 	void Start () {
-		goal = GameObject.Find ("Goal");
-		if (goal) {			
-			int jumpCount = goal.GetComponent<Goal> ().GetJumps ();
+		jumpGoal = GameObject.Find ("JumpGoal");
+		if (jumpGoal) {			
+			int jumpCount = jumpGoal.GetComponent<JumpGoal> ().GetJumps ();
 			gameObject.GetComponent<Text> ().text = jumpCount.ToString ();
 		}
 	}
