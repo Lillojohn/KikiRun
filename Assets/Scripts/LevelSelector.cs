@@ -9,10 +9,14 @@ public class LevelSelector : MonoBehaviour {
 	private GameObject[] _targets;
 	public MainMenu MainMenu;
 	private bool _found = false;
+	private GameObject _goal;
+	private Serial _serial;
 
 	// Use this for initialization
 	void Start () {
 		StartCoroutine(checkLevels());
+		_goal = GameObject.Find("Goal");
+		_serial = _goal.GetComponent<Serial>();
 	}
 	
 	// Update is called once per frame
@@ -21,7 +25,8 @@ public class LevelSelector : MonoBehaviour {
 	}
 
 	public void SelectLevel(){
-		if(_found && Input.GetKeyDown("space")) {
+		if(_found && (Input.GetKeyDown("space") || this._serial.GetLastLine().StartsWith("j").ToString() == "True")){
+			Debug.Log("TEST");
 			foreach(GameObject target in _targets) {
 				RectTransform trt = (RectTransform)target.transform;
 				if(target.transform.localPosition.x < trt.rect.width/2 && target.transform.localPosition.x > -(trt.rect.width/2)) {

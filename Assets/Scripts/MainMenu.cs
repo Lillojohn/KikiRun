@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour {
 	public GameObject Canvas;
 	private string _targetUrl = "http://kiki-dashboard.herokuapp.com/targets";
 	static private bool _targetsAquired = false;
+
 	// Use this for initialization
 	void Start () {
          WWW www = new WWW(_targetUrl);

@@ -23,6 +23,7 @@ namespace UnityStandardAssets._2D
         public bool moving = true;
 		public GameObject jumpSound;
 		public GameObject JumpManager;
+        private GameObject _goal;
 
         private void Awake()
         {
@@ -34,7 +35,7 @@ namespace UnityStandardAssets._2D
         }
 
 		void Start(){
-			
+			_goal = GameObject.Find("Goal");
 		}
 
 
@@ -106,8 +107,8 @@ namespace UnityStandardAssets._2D
             // If the player should jump...
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {
-				jumpSound.GetComponent<AudioRepeat> ().PlaySound ();
-				JumpManager.GetComponent<JumpManager> ().addJump ();
+				// jumpSound.GetComponent<AudioRepeat> ().PlaySound ();
+				// JumpManager.GetComponent<JumpManager> ().addJump ();
                 // Add a vertical force to the player.
                 m_Grounded = false;
                 m_Anim.SetBool("Ground", false);

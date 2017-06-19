@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameMaster : MonoBehaviour {
+public class GameMaster : MonoBehaviour, IArduino {
 
 	public static GameMaster gm;
 	private Goal _goal;
@@ -19,6 +19,7 @@ public class GameMaster : MonoBehaviour {
 		_goal = goal.GetComponent<Goal>();
 		_maxScore = _goal.GetGoal();
 		_goal.startGame();
+		// Arduino.getInstance().addObserver(this);
 	}
 
 	public void CheckGameOver(int score) {
@@ -30,5 +31,9 @@ public class GameMaster : MonoBehaviour {
 	private void EndGame(int score) {
 		_goal.endGame();
 		Application.LoadLevel("EndScreen");
+	}
+
+	public void action() {
+		Debug.Log("Jump");
 	}
 }
