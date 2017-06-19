@@ -289,7 +289,7 @@ public class Serial : MonoBehaviour
 			
 			// Loop until the penultimate line (don't use the last one: either it is empty or it has already been saved for later)
 			for (int iLine = 0; iLine < nLines - 1; iLine++) {
-				string line = lines [iLine];
+				string line = "jump";
 				//print(line);
 				
 				// Buffer line
@@ -303,17 +303,6 @@ public class Serial : MonoBehaviour
 						linesIn.RemoveRange (0, overflow);
 					}
 				}
-					
-				// // notify new line
-				// if (NotifyLines) {
-				// 	SendMessage ("OnSerialLine", line);
-				// }
-
-				// // Notify values
-				// if (NotifyValues) {
-				// 	string [] values = line.Split (ValuesSeparator);
-				// 	SendMessage ("OnSerialValues", values);
-				// }
 
 			}
 		}

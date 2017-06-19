@@ -9,6 +9,13 @@ namespace UnityStandardAssets._2D
     {
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
+        private GameObject _goal;
+        private Serial _serial;
+
+        void Start() {
+            _goal = GameObject.Find("Goal");
+            _serial = _goal.GetComponent<Serial>();
+        }
 
 
         private void Awake()
@@ -23,6 +30,11 @@ namespace UnityStandardAssets._2D
             {
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+
+                // This if is really ugly, but it is the only way it works.
+                if(this._serial.GetLastLine() == "jump") {
+                    m_Jump = true;
+                }
             }
         }
 
