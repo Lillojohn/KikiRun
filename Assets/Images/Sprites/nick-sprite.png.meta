@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 355a4335130db4a77a97ee07e3d8d21c
-timeCreated: 1496953572
+timeCreated: 1498174926
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -41,6 +41,7 @@ TextureImporter:
     21300068: nick-sprite_34
     21300070: nick-sprite_35
     21300072: nick-sprite_36
+    21300074: nick-sprite_37
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -88,9 +89,9 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,9 +105,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 1
   - buildTarget: iPhone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,12 +119,25 @@ TextureImporter:
       name: nick-sprite_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 21
-        width: 137
-        height: 304
+        x: 17
+        y: 52
+        width: 134
+        height: 273
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 50
+        width: 135
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -131,12 +145,12 @@ TextureImporter:
       name: nick-sprite_2
       rect:
         serializedVersion: 2
-        x: 358
-        y: 22
-        width: 137
-        height: 302
+        x: 356
+        y: 43
+        width: 135
+        height: 278
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -144,12 +158,12 @@ TextureImporter:
       name: nick-sprite_3
       rect:
         serializedVersion: 2
-        x: 524
-        y: 22
-        width: 137
-        height: 304
+        x: 526
+        y: 37
+        width: 132
+        height: 280
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -157,12 +171,12 @@ TextureImporter:
       name: nick-sprite_4
       rect:
         serializedVersion: 2
-        x: 694
-        y: 22
-        width: 137
-        height: 304
+        x: 696
+        y: 19
+        width: 128
+        height: 294
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -170,12 +184,12 @@ TextureImporter:
       name: nick-sprite_5
       rect:
         serializedVersion: 2
-        x: 867
-        y: 22
-        width: 137
-        height: 304
+        x: 865
+        y: 19
+        width: 129
+        height: 290
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -183,12 +197,12 @@ TextureImporter:
       name: nick-sprite_6
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 22
-        width: 137
-        height: 304
+        x: 1037
+        y: 19
+        width: 127
+        height: 288
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -196,12 +210,12 @@ TextureImporter:
       name: nick-sprite_7
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 22
-        width: 137
-        height: 304
+        x: 1207
+        y: 19
+        width: 126
+        height: 288
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -209,12 +223,12 @@ TextureImporter:
       name: nick-sprite_8
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 22
-        width: 137
-        height: 304
+        x: 1377
+        y: 19
+        width: 126
+        height: 288
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -223,11 +237,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1547
-        y: 22
-        width: 137
-        height: 304
+        y: 19
+        width: 126
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -235,12 +249,12 @@ TextureImporter:
       name: nick-sprite_10
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 22
-        width: 137
-        height: 304
+        x: 1716
+        y: 37
+        width: 127
+        height: 278
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -248,12 +262,12 @@ TextureImporter:
       name: nick-sprite_11
       rect:
         serializedVersion: 2
-        x: 1887
-        y: 22
-        width: 137
-        height: 304
+        x: 1886
+        y: 46
+        width: 128
+        height: 275
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -261,12 +275,12 @@ TextureImporter:
       name: nick-sprite_12
       rect:
         serializedVersion: 2
-        x: 2058
-        y: 24
-        width: 137
-        height: 304
+        x: 2056
+        y: 54
+        width: 130
+        height: 271
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -274,12 +288,12 @@ TextureImporter:
       name: nick-sprite_13
       rect:
         serializedVersion: 2
-        x: 2227
-        y: 22
-        width: 137
-        height: 304
+        x: 2226
+        y: 56
+        width: 132
+        height: 269
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -287,12 +301,12 @@ TextureImporter:
       name: nick-sprite_14
       rect:
         serializedVersion: 2
-        x: 2397
-        y: 22
-        width: 137
-        height: 304
+        x: 2395
+        y: 54
+        width: 131
+        height: 271
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -301,11 +315,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2567
-        y: 22
-        width: 137
-        height: 304
+        y: 46
+        width: 126
+        height: 275
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -314,11 +328,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2737
-        y: 22
-        width: 137
-        height: 304
+        y: 35
+        width: 126
+        height: 280
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -327,11 +341,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2907
-        y: 22
-        width: 137
-        height: 304
+        y: 19
+        width: 126
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -339,12 +353,12 @@ TextureImporter:
       name: nick-sprite_18
       rect:
         serializedVersion: 2
-        x: 3079
-        y: 21
-        width: 137
-        height: 304
+        x: 3076
+        y: 19
+        width: 127
+        height: 288
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -352,12 +366,12 @@ TextureImporter:
       name: nick-sprite_19
       rect:
         serializedVersion: 2
-        x: 3248
-        y: 22
-        width: 137
-        height: 304
+        x: 3246
+        y: 19
+        width: 127
+        height: 288
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -365,12 +379,12 @@ TextureImporter:
       name: nick-sprite_20
       rect:
         serializedVersion: 2
-        x: 3417
-        y: 22
-        width: 137
-        height: 304
+        x: 3416
+        y: 19
+        width: 126
+        height: 288
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -378,12 +392,12 @@ TextureImporter:
       name: nick-sprite_21
       rect:
         serializedVersion: 2
-        x: 3588
-        y: 22
-        width: 137
-        height: 304
+        x: 3586
+        y: 19
+        width: 128
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -391,12 +405,12 @@ TextureImporter:
       name: nick-sprite_22
       rect:
         serializedVersion: 2
-        x: 3758
-        y: 22
-        width: 137
-        height: 304
+        x: 3756
+        y: 33
+        width: 130
+        height: 282
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -405,11 +419,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3927
-        y: 22
-        width: 137
-        height: 304
+        y: 43
+        width: 133
+        height: 278
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -417,25 +431,181 @@ TextureImporter:
       name: nick-sprite_24
       rect:
         serializedVersion: 2
-        x: 4098
-        y: 24
+        x: 4097
+        y: 39
         width: 137
-        height: 304
+        height: 286
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: nick-sprite_1
+      name: nick-sprite_25
       rect:
         serializedVersion: 2
-        x: 187
-        y: 22
-        width: 137
-        height: 303
+        x: 43
+        y: 19
+        width: 81
+        height: 12
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_26
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 19
+        width: 85
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_27
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 19
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 19
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_29
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 19
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_30
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 19
+        width: 87
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_31
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 19
+        width: 83
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 19
+        width: 83
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_33
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 19
+        width: 83
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_34
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 19
+        width: 87
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_35
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 19
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_36
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 19
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nick-sprite_37
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 19
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
