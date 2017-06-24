@@ -1,34 +1,33 @@
 fileFormatVersion: 2
-guid: 67166914f79704a66a66157d51ba6eab
-timeCreated: 1497257571
+guid: e476f6f752d1542699c70feb463399fd
+timeCreated: 1498334069
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: simon_juig_0
-    21300002: simon_juig_1
-    21300004: simon_juig_2
-    21300006: simon_juig_3
-    21300008: simon_juig_4
-    21300010: simon_juig_5
-    21300012: simon_juig_6
-    21300014: simon_juig_7
-    21300016: simon_juig_8
-    21300018: simon_juig_9
-    21300020: simon_juig_10
-    21300022: simon_juig_11
-    21300024: simon_juig_12
-    21300026: simon_juig_13
-    21300028: simon_juig_14
-    21300030: simon_juig_15
-    21300032: simon_juig_16
-    21300034: simon_juig_17
-    21300036: simon_juig_18
-    21300038: simon_juig_19
-    21300040: simon_juig_20
-    21300042: simon_juig_21
-    21300044: simon_juig_22
-    21300046: simon_juig_23
-    21300048: simon_juig_24
+    21300000: nick-run-sprite3_0
+    21300002: nick-run-sprite3_1
+    21300004: nick-run-sprite3_2
+    21300006: nick-run-sprite3_3
+    21300008: nick-run-sprite3_4
+    21300010: nick-run-sprite3_5
+    21300012: nick-run-sprite3_6
+    21300014: nick-run-sprite3_7
+    21300016: nick-run-sprite3_8
+    21300018: nick-run-sprite3_9
+    21300020: nick-run-sprite3_10
+    21300022: nick-run-sprite3_11
+    21300024: nick-run-sprite3_12
+    21300026: nick-run-sprite3_13
+    21300028: nick-run-sprite3_14
+    21300030: nick-run-sprite3_15
+    21300032: nick-run-sprite3_16
+    21300034: nick-run-sprite3_17
+    21300036: nick-run-sprite3_18
+    21300038: nick-run-sprite3_19
+    21300040: nick-run-sprite3_20
+    21300042: nick-run-sprite3_21
+    21300044: nick-run-sprite3_22
+    21300046: nick-run-sprite3_23
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -52,7 +51,7 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapMode: 1
@@ -65,7 +64,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 360
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -78,7 +77,7 @@ TextureImporter:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -86,7 +85,7 @@ TextureImporter:
   - buildTarget: Standalone
     maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,327 +94,314 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: simon_juig_0
+      name: nick-run-sprite3_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 203
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_1
+      name: nick-run-sprite3_1
       rect:
         serializedVersion: 2
-        x: 200
+        x: 875
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_2
+      name: nick-run-sprite3_2
       rect:
         serializedVersion: 2
-        x: 400
+        x: 1544
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_3
+      name: nick-run-sprite3_3
       rect:
         serializedVersion: 2
-        x: 600
+        x: 2208
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_4
+      name: nick-run-sprite3_4
       rect:
         serializedVersion: 2
-        x: 800
+        x: 2882
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_5
+      name: nick-run-sprite3_5
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 3553
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_6
+      name: nick-run-sprite3_6
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 4224
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_7
+      name: nick-run-sprite3_7
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 4893
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_8
+      name: nick-run-sprite3_8
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 5556
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_9
+      name: nick-run-sprite3_9
       rect:
         serializedVersion: 2
-        x: 1800
+        x: 6236
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_10
+      name: nick-run-sprite3_10
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 6905
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_11
+      name: nick-run-sprite3_11
       rect:
         serializedVersion: 2
-        x: 2200
+        x: 7579
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_12
+      name: nick-run-sprite3_12
       rect:
         serializedVersion: 2
-        x: 2400
+        x: 8241
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_13
+      name: nick-run-sprite3_13
       rect:
         serializedVersion: 2
-        x: 2600
+        x: 8915
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_14
+      name: nick-run-sprite3_14
       rect:
         serializedVersion: 2
-        x: 2800
+        x: 9583
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_15
+      name: nick-run-sprite3_15
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 10257
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_16
+      name: nick-run-sprite3_16
       rect:
         serializedVersion: 2
-        x: 3200
+        x: 10925
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_17
+      name: nick-run-sprite3_17
       rect:
         serializedVersion: 2
-        x: 3400
+        x: 11598
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_18
+      name: nick-run-sprite3_18
       rect:
         serializedVersion: 2
-        x: 3600
+        x: 12267
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_19
+      name: nick-run-sprite3_19
       rect:
         serializedVersion: 2
-        x: 3800
+        x: 12931
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_20
+      name: nick-run-sprite3_20
       rect:
         serializedVersion: 2
-        x: 4000
+        x: 13605
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_21
+      name: nick-run-sprite3_21
       rect:
         serializedVersion: 2
-        x: 4200
+        x: 14271
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_22
+      name: nick-run-sprite3_22
       rect:
         serializedVersion: 2
-        x: 4400
+        x: 14946
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: simon_juig_23
+      name: nick-run-sprite3_23
       rect:
         serializedVersion: 2
-        x: 4600
+        x: 15616
         y: 0
-        width: 200
-        height: 350
+        width: 329
+        height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: simon_juig_24
-      rect:
-        serializedVersion: 2
-        x: 4800
-        y: 0
-        width: 200
-        height: 350
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

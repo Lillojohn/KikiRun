@@ -29,14 +29,14 @@ public class JumpIndicator : MonoBehaviour {
 			indicationCircle.GetComponent<SpriteRenderer> ().color = new Color (1, 0.9f, 0, 1);
 		}
 
-		if(gameObject.name == "jumpIndicator3" && col.gameObject.name == "Nick")
+		if(gameObject.name == "JumpIndicator3" && col.gameObject.name == "Nick")
 		{
 			indicationCircle.GetComponent<SpriteRenderer> ().color = new Color (0, 1, 0, 1);
 		}
 	}  
 
 	void OnTriggerExit2D (Collider2D  col){
-		if(gameObject.name == "jumpIndicator3" && col.gameObject.name == "Nick")
+		if(gameObject.name == "JumpIndicator3" && col.gameObject.name == "Nick")
 		{
 			indicationCircle.GetComponent<SpriteRenderer> ().color = new Color (0, 0, 0, 0);
 		}

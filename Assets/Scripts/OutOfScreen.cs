@@ -12,15 +12,16 @@ public class OutOfScreen : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.Find("Nick");
-		_camera = GameObject.Find ("Main Camera");
+		_camera = GameObject.Find ("Main Camera"); 
 		Camera _cam = _camera.GetComponent<Camera> ();
 		_cameraWidth = _cam.rect.width/2 + 20;
+		Debug.Log (_cameraWidth);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(gameObject.transform.position.x < player.transform.localPosition.x - _cameraWidth -	 5){
-			Destroy (gameObject);
-		}
+//		if(gameObject.transform.position.x < player.transform.localPosition.x - _cameraWidth -	 5){
+//			Destroy (gameObject);
+//		}
 	}
 }

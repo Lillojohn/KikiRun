@@ -48,7 +48,7 @@ namespace UnityStandardAssets._2D
             Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
             for (int i = 0; i < colliders.Length; i++)
             {
-                Debug.Log(colliders[i].gameObject.name);
+//                Debug.Log(colliders[i].gameObject.name);
                 if (colliders[i].gameObject != gameObject && colliders[i].gameObject.name != "JumpIndicator1" && colliders[i].gameObject.name != "JumpIndicator2" && colliders[i].gameObject.name != "JumpIndicator3")
                     m_Grounded = true;
             }
