@@ -15,7 +15,6 @@ public class OutOfScreen : MonoBehaviour {
 		_camera = GameObject.Find ("Main Camera"); 
 		Camera _cam = _camera.GetComponent<Camera> ();
 		_cameraWidth = _cam.rect.width/2 + 20;
-		Debug.Log (_cameraWidth);
 	}
 	
 	// Update is called once per frame

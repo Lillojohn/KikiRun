@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e476f6f752d1542699c70feb463399fd
-timeCreated: 1498334069
+timeCreated: 1498458772
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -77,7 +77,7 @@ TextureImporter:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,7 +85,7 @@ TextureImporter:
   - buildTarget: Standalone
     maxTextureSize: 8192
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,10 +97,10 @@ TextureImporter:
       name: nick-run-sprite3_0
       rect:
         serializedVersion: 2
-        x: 203
-        y: 0
-        width: 329
-        height: 660
+        x: 216
+        y: 157
+        width: 304
+        height: 430
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,10 +110,10 @@ TextureImporter:
       name: nick-run-sprite3_1
       rect:
         serializedVersion: 2
-        x: 875
-        y: 0
-        width: 329
-        height: 660
+        x: 891
+        y: 143
+        width: 300
+        height: 438
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,10 +123,10 @@ TextureImporter:
       name: nick-run-sprite3_2
       rect:
         serializedVersion: 2
-        x: 1544
-        y: 0
-        width: 329
-        height: 660
+        x: 1563
+        y: 128
+        width: 299
+        height: 444
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,10 +136,10 @@ TextureImporter:
       name: nick-run-sprite3_3
       rect:
         serializedVersion: 2
-        x: 2208
-        y: 0
-        width: 329
-        height: 660
+        x: 2234
+        y: 112
+        width: 299
+        height: 450
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,10 +149,10 @@ TextureImporter:
       name: nick-run-sprite3_4
       rect:
         serializedVersion: 2
-        x: 2882
-        y: 0
-        width: 329
-        height: 660
+        x: 2903
+        y: 104
+        width: 300
+        height: 450
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: nick-run-sprite3_5
       rect:
         serializedVersion: 2
-        x: 3553
-        y: 0
-        width: 329
-        height: 660
+        x: 3574
+        y: 104
+        width: 300
+        height: 448
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: nick-run-sprite3_6
       rect:
         serializedVersion: 2
-        x: 4224
-        y: 0
-        width: 329
-        height: 660
+        x: 4243
+        y: 108
+        width: 300
+        height: 446
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: nick-run-sprite3_7
       rect:
         serializedVersion: 2
-        x: 4893
-        y: 0
-        width: 329
-        height: 660
+        x: 4914
+        y: 120
+        width: 300
+        height: 442
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +201,10 @@ TextureImporter:
       name: nick-run-sprite3_8
       rect:
         serializedVersion: 2
-        x: 5556
-        y: 0
-        width: 329
-        height: 660
+        x: 5585
+        y: 136
+        width: 300
+        height: 436
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: nick-run-sprite3_9
       rect:
         serializedVersion: 2
-        x: 6236
-        y: 0
-        width: 329
-        height: 660
+        x: 6254
+        y: 151
+        width: 298
+        height: 430
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: nick-run-sprite3_10
       rect:
         serializedVersion: 2
-        x: 6905
-        y: 0
-        width: 329
-        height: 660
+        x: 6925
+        y: 165
+        width: 296
+        height: 422
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +240,10 @@ TextureImporter:
       name: nick-run-sprite3_11
       rect:
         serializedVersion: 2
-        x: 7579
-        y: 0
-        width: 329
-        height: 660
+        x: 7596
+        y: 171
+        width: 294
+        height: 420
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: nick-run-sprite3_12
       rect:
         serializedVersion: 2
-        x: 8241
-        y: 0
-        width: 329
-        height: 660
+        x: 8265
+        y: 165
+        width: 296
+        height: 422
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: nick-run-sprite3_13
       rect:
         serializedVersion: 2
-        x: 8915
-        y: 0
-        width: 329
-        height: 660
+        x: 8933
+        y: 151
+        width: 299
+        height: 430
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +279,10 @@ TextureImporter:
       name: nick-run-sprite3_14
       rect:
         serializedVersion: 2
-        x: 9583
-        y: 0
-        width: 329
-        height: 660
+        x: 9604
+        y: 136
+        width: 297
+        height: 436
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: nick-run-sprite3_15
       rect:
         serializedVersion: 2
-        x: 10257
-        y: 0
-        width: 329
-        height: 660
+        x: 10273
+        y: 120
+        width: 298
+        height: 442
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: nick-run-sprite3_16
       rect:
         serializedVersion: 2
-        x: 10925
-        y: 0
-        width: 329
-        height: 660
+        x: 10944
+        y: 110
+        width: 300
+        height: 444
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: nick-run-sprite3_17
       rect:
         serializedVersion: 2
-        x: 11598
-        y: 0
-        width: 329
-        height: 660
+        x: 11613
+        y: 104
+        width: 300
+        height: 448
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: nick-run-sprite3_18
       rect:
         serializedVersion: 2
-        x: 12267
-        y: 0
-        width: 329
-        height: 660
+        x: 12284
+        y: 104
+        width: 300
+        height: 450
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: nick-run-sprite3_19
       rect:
         serializedVersion: 2
-        x: 12931
-        y: 0
-        width: 329
-        height: 660
+        x: 12955
+        y: 112
+        width: 300
+        height: 450
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +357,10 @@ TextureImporter:
       name: nick-run-sprite3_20
       rect:
         serializedVersion: 2
-        x: 13605
-        y: 0
-        width: 329
-        height: 660
+        x: 13624
+        y: 128
+        width: 300
+        height: 444
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: nick-run-sprite3_21
       rect:
         serializedVersion: 2
-        x: 14271
-        y: 0
-        width: 329
-        height: 660
+        x: 14291
+        y: 145
+        width: 302
+        height: 438
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: nick-run-sprite3_22
       rect:
         serializedVersion: 2
-        x: 14946
-        y: 0
-        width: 329
-        height: 660
+        x: 14958
+        y: 157
+        width: 304
+        height: 430
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +396,10 @@ TextureImporter:
       name: nick-run-sprite3_23
       rect:
         serializedVersion: 2
-        x: 15616
-        y: 0
-        width: 329
-        height: 660
+        x: 15628
+        y: 163
+        width: 304
+        height: 428
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
