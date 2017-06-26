@@ -15,6 +15,7 @@ namespace UnityStandardAssets._2D
         void Start() {
             _goal = GameObject.Find("Goal");
             _serial = _goal.GetComponent<Serial>();
+            InvokeRepeating("checkJump", 0.1f, 0.1f);
         }
 
 
@@ -30,11 +31,6 @@ namespace UnityStandardAssets._2D
             {
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-
-                // This if is really ugly, but it is the only way it works.
-                if(this._serial.GetLastLine() == "jump") {
-                    m_Jump = true;
-                }
             }
         }
 
@@ -47,6 +43,15 @@ namespace UnityStandardAssets._2D
             // Pass all parameters to the character control script.
             m_Character.Move(1, crouch, m_Jump);
             m_Jump = false;
+        }
+
+        private void checkJump() {
+            if(!m_Jump) {
+                if(this._serial.GetLastLine() == "jump") {
+                    bool crouch = Input.GetKey(KeyCode.LeftControl);
+                    m_Character.Move(1, crouch, true);
+                }
+            }
         }
     }
 }
